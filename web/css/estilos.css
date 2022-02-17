@@ -1,0 +1,105 @@
+.bg {
+    background: url('../images/dtvla.jpg') no-repeat;
+    width: 100%;
+    height: 100%;
+    background-size: 100%;
+}
+
+.tag {
+    border-radius: 2px;
+    padding: 4px;
+    color: white;
+    font-weight: bold;
+    display: inline;
+}
+
+.form-container {
+    position:absolute;
+    top: 15vh;
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px;
+}
+
+.circulo {
+    background-color: #81BEF7;
+    border-radius: 50%;
+    height: 3rem;
+    width: 3rem;
+}
+
+.circulo h3 {
+    color:white;
+    text-align: center;
+}
+
+.cuerpo {
+    min-height:100%;
+    background-color: whitesmoke;
+}
+
+
+body {
+    background: url('../images/dtvla.jpg');
+    width: 100%;
+    height: 100%;
+    background-size: 100%;
+}
+
+html {
+    font-size: 0.8rem;
+    font-family: sans-serif;
+}
+
+ul {
+    list-style-type: none;
+}
+
+a.sesion {
+    color:whitesmoke;  
+}
+
+a.sesion:hover {
+    text-decoration: none;
+    color:whitesmoke;
+}
+
+
+a.linkFoot:hover {
+    text-decoration: none;
+}
+
+footer {
+    background-color: #E6E6E6 ;
+}
+
+
+
+@media only screen and (max-width: 576px) {
+
+    .bg, body {
+        background-size: 300%;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+
+    .bg, body {
+        background-size: 300%;
+    }
+}
+
+@media only screen and (max-width: 992px) {
+
+    .bg, body {
+        background-size: 300%;
+    }
+}
+
+@media only screen and (max-width: 1200px) {
+
+    .bg {
+        background-size: 300%;
+    }
+}
